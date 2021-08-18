@@ -1,0 +1,27 @@
+:root {
+  --main-color: rgb(255,192,203);
+}
+.navbar {
+  background-color: var(--main-color);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item {
+  /* margin-right: 20px; */
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1em;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}

@@ -1,0 +1,21 @@
+.products-div {
+  color: pink;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.products-title {
+  padding-bottom: 30px;
+}
+
+.products-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-row {
+  display: flex;
+  flex-direction: row;
+}
