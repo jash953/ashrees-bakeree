@@ -3,13 +3,16 @@ import Navbar from './components/Navbar/Navbar';
 import Products from './components/Products/Products';
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
-import { Route } from 'react-router-dom';
+import { Route, Redirect } from 'react-router-dom';
 import './App.css';
 
 const App = () => {
   return (
     <div>
       <Navbar />
+      <Route exact path="/">
+        <Redirect to="/home" />
+      </Route>
       <Route path="/home">
         <Home />
       </Route>
